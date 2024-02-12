@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Tasbih</title>
+    <!-- tailwind and daisy ui cnd link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header class="my-10">
+        <h1 class="text-sky-600 text-4xl text-center">Digital <span class="text-green-700">Tasbih</span></h1>
+    </header>
+    <main class="w-4/5 mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-3">
+            <div>
+                <div class="card shadow-lg">
+                    <div class="card-body items-center text-center">
+                      <h2 id="subhanAllah" class="card-title text-3xl">Subhan Allah</h2>
+                      <p id="countsubhanAllah" class="text-4xl py-4">0</p>
+                      <div class="card-actions justify-end">
+                        <button id="subhanAllahIncriment" class="btn bg-green-600 text-white hover:text-black hover:bg-green-300">INCRIMENT</button>
+                        <button id="subhanAllahDecriment" class="btn bg-red-600 text-white hover:text-black hover:bg-red-300">DECRIMENT</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div>
+                <div class="card shadow-lg">
+                    <div class="card-body items-center text-center">
+                      <h2 id="alhamdulilah" class="card-title text-3xl">Alhamdulilah</h2>
+                      <p id="countalhamdulilah" class="text-4xl py-4">0</p>
+                      <div class="card-actions justify-end">
+                        <button id="alhamdulilahIncriment" class="btn bg-green-600 text-white hover:text-black hover:bg-green-300">INCRIMENT</button>
+                        <button id="alhamdulilahDecriment" class="btn bg-red-600 text-white hover:text-black hover:bg-red-300">DECRIMENT</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div>
+                <div class="card shadow-lg">
+                    <div class="card-body items-center text-center">
+                      <h2 id="allahuakber" class="card-title text-3xl">Allahuakber</h2>
+                      <p id="countallahuakber" class="text-4xl py-4">0</p>
+                      <div class="card-actions justify-end">
+                        <button  id="allahuakberIncriment" class="btn bg-green-600 text-white hover:text-black hover:bg-green-300">INCRIMENT</button>
+                        <button id="allahuakberDecriment" class="btn bg-red-600 text-white hover:text-black hover:bg-red-300">DECRIMENT</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="my-5 text-center ">
+            <button id="resetBtn" class="btn text-white bg-yellow-600 hover:text-black">RESET ALL TASBIH</button>
+        </div>
+
+
+    </main>
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

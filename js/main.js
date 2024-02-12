@@ -22,7 +22,7 @@ let alhamdulilahValue = 0;
 let allahuakberValue = 0;
 
 subhanAllahIncriment.addEventListener("click", function(){
-    if(subhanAllahValue == 33){
+    if(subhanAllahValue == 32){
         return countsubhanAllah.innerText = "Complete ❤️";
     }
     subhanAllahValue += 1
@@ -38,7 +38,7 @@ subhanAllahDecriment.addEventListener("click", function(){
 })
 // alhamdulilah 
 alhamdulilahIncriment.addEventListener("click", function(){
-    if(alhamdulilahValue == 33){
+    if(alhamdulilahValue == 32){
         return countalhamdulilah.innerText = "Complete ❤️";
     }
     alhamdulilahValue += 1
@@ -55,7 +55,7 @@ alhamdulilahDecriment.addEventListener("click", function(){
 
 // allauakber 
 allahuakberIncriment.addEventListener("click", function(){
-    if(allahuakberValue == 34){
+    if(allahuakberValue == 33){
         return countallahuakber.innerText = "Complete ❤️";
     }
     allahuakberValue += 1
